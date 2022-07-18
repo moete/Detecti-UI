@@ -1,0 +1,14 @@
+.Login-page {
+  background: var(--clr-lightest-grey);
+  display: flex;
+  flex-direction: row;
+}
+.login-page-container {
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 30px;
+  background-size: cover;
+}
+.login-page-container .cover-image {
+  background-size: contain;
+}

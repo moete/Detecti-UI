@@ -1,0 +1,35 @@
+.btn {
+  width: 348px;
+  height: auto;
+  background-color: var(--clr-primary-color);
+  /* cursor: pointer; */
+  font-family: var(--font-sanfrancisco);
+  /* transition: var(--transition); */
+  letter-spacing: 2px;
+  border-radius: 10px;
+  padding: 9px 17px;
+  font-weight: 400px;
+  color: white;
+  border: none;
+}
+.btn-secondary {
+  width: 99px;
+  height: auto;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid var(--clr-btn-primary);
+  border-radius: 3.2px;
+  padding: 5px 9px;
+  letter-spacing: 1px;
+  font-weight: 400px;
+}
+.btn-inactive {
+  width: 133px;
+  height: auto;
+  background-color: var(--clr-light-grey);
+  border-radius: 4px;
+  padding: 7px 13px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  font-weight: 400px;
+}
